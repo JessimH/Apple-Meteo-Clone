@@ -91,13 +91,13 @@ function localisation(position){
                     const rain = week[i].rain * 100 + ' %'
                     // console.log(iconDay)
                     let liIcon = document.createElement('li')
-                    liIcon.innerHTML = `<img style="height: 30px;" src="http://openweathermap.org/img/wn/${iconDay}@2x.png"> ${rain}`
+                    liIcon.innerHTML = `<img style="height: 30px;" src="https://openweathermap.org/img/wn/${iconDay}@2x.png"> ${rain}`
                     // console.log(liIcon)
                     ulIcon.append(liIcon)
                 }else{
                     // console.log(iconDay)
                     let liIcon = document.createElement('li')
-                    liIcon.innerHTML = `<img style="height: 30px;" src="http://openweathermap.org/img/wn/${iconDay}@2x.png">`
+                    liIcon.innerHTML = `<img style="height: 30px;" src="https://openweathermap.org/img/wn/${iconDay}@2x.png">`
                     // console.log(liIcon)
                     ulIcon.append(liIcon)
                 }
@@ -106,11 +106,11 @@ function localisation(position){
                 const dayMax = Math.trunc(tempWeek.max);
                 const dayMin = Math.trunc(tempWeek.min)
                 let liMax = document.createElement('li')
-                liMax.innerHTML = `${dayMax}`
+                liMax.innerHTML = `${dayMax}°`
                 ulMax.append(liMax)
 
                 let liMin = document.createElement('li')
-                liMin.innerHTML = `${dayMin}`
+                liMin.innerHTML = `${dayMin}°`
                 ulMin.append(liMin)
             }
         });
