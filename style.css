@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    
+}
+
+
+.night{
+    background-color: black;
+}
+
+.day{
+    background-color: rgba(40, 177, 241, 0.795);
+}
+
+.clouds{
+    background-color: rgb(114, 135, 150);
+}
+
+
+.actual-weather{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.493);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.301);
+
+}
+.actual-weather-city{
+    font-weight: 500;
+    font-size: 2em;
+}
+.actual-weather-weather{
+    font-weight: 300;
+    font-size: 1.3em;
+}
+.temperatur-°{
+    text-align: right;
+    font-weight: 200;
+    font-size: 5em;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.301);
+}
+.min-max{
+    display: flex;
+}
+.min-max > p {
+    font-weight: 300;
+    margin: 5px;
+}
+
+.week-view{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.493); 
+}
+
+.img{
+    height: 5px;
+}
+
+.week-view > ul{
+    list-style: none;
+}
+.week-view > ul > li{
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#week > li{
+    margin-bottom: 13px;
+}
+#min{
+    opacity: 0.7;
+}
+
+#min>li{
+    margin-bottom: 13px;
+}
+#max>li{
+    margin-bottom: 13px;
+}
+
+#icons > li{
+    display: flex;
+    align-items: center;
+    font-size: 0.97em;
+    color: white;
+}
+
+.hour-view{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    display: flex;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.493);
+    width: 100%;
+    overflow-x: auto;
+}
+
+.hour-view > ul{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.hour-view > ul > li{
+    font-weight: 300;
+    margin-bottom: 7px;
+}
+.hour-view > ul > p{
+    font-weight: 500;
+    margin-bottom: 7px;
+}
